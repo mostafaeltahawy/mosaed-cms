@@ -29,9 +29,9 @@ const DashboardCard: React.FC<DashboardCardProps> = ({
   getStatusProgress,
 }) => {
   const badgeColor = (rating: number) => {
-    if (rating <= 3) return '#4CAF50';  // Green for low severity
-    if (rating <= 6) return '#FFC107';  // Yellow for medium severity
-    if (rating <= 9) return '#FF5722';  // Orange for high severity
+    if (rating <= 0.3) return '#4CAF50';  // Green for low severity
+    if (rating <= 0.6) return '#FFC107';  // Yellow for medium severity
+    if (rating <= 0.9) return '#FF5722';  // Orange for high severity
     return '#F44336';  // Red for most severe
   };
 

@@ -122,7 +122,7 @@ const CaseDetail: React.FC = () => {
             Rating:
           </Typography>
           <Typography variant="body1" paragraph>
-            {currentCase.urgency}
+            {currentCase.urgency} 
           </Typography>
 
           <Typography variant="h6" color="textSecondary" gutterBottom>
